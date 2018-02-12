@@ -16,13 +16,13 @@ In this assignment you will be using JSON feed to read lotteries Jurisdictions/C
 
 Use the following as an example, but don't be constrained by our design or implementation choice.  The example below was taken from our IOS app, use the appropriate design idiom of your chosen plaform.
 
-![Sample List](images/ios.png))
+![Sample List](images/ios.png)
 
 ## 2. Coundown Timer
 
 In this challenge you will be displaying a countdown timer such as the one below.  You may assume that the countdown will hit zero at 20:30 AEST every Tuesday.
 
-![Sample Countdown](images/countdown.png))
+![Sample Countdown](images/countdown.png)
 
 # Platform specifics
 
