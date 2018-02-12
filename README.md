@@ -1,5 +1,6 @@
 # coding-challenge
 
+
 ## What we are looking for
 
 - Coding style / readability
@@ -73,31 +74,31 @@ Sample Response:
       "CompanyId": "GoldenCasket",
       "CompanyDisplayName": "Golden Casket",
       "CompanyDescription": "QLD Residents",
-      "CompanyLogoUrl": "http://tim.media.tatts.com/TattsServices/Lotto/Companies/GoldenCasket_v1.png"
+      "CompanyLogoUrl": "http://media.tatts.com/TattsServices/Lotto/Companies/GoldenCasket_v1.png"
     },
     {
       "CompanyId": "NSWLotteries",
       "CompanyDisplayName": "NSW Lotteries",
-      "CompanyDescription": "NSW Residents",
-      "CompanyLogoUrl": "http://tim.media.tatts.com/TattsServices/Lotto/Companies/NSWLotteries_v1.png"
+      "CompanyDescription": "NSW, ACT Residents",
+      "CompanyLogoUrl": "http://media.tatts.com/TattsServices/Lotto/Companies/NSWLotteries_v1.png"
     },
     {
       "CompanyId": "NTLotteries",
       "CompanyDisplayName": "NT Lotteries",
       "CompanyDescription": "NT, International Residents",
-      "CompanyLogoUrl": "http://tim.media.tatts.com/TattsServices/Lotto/Companies/Tatts_v1.png"
+      "CompanyLogoUrl": "http://media.tatts.com/TattsServices/Lotto/Companies/Tatts_v1.png"
     },
     {
       "CompanyId": "SALotteries",
       "CompanyDisplayName": "SA Lotteries",
       "CompanyDescription": "SA Residents",
-      "CompanyLogoUrl": "http://tim.media.tatts.com/TattsServices/Lotto/Companies/SALotteries_v1.png"
+      "CompanyLogoUrl": "http://media.tatts.com/TattsServices/Lotto/Companies/SALotteries_v1.png"
     },
     {
       "CompanyId": "Tattersalls",
       "CompanyDisplayName": "Tattersall's",
-      "CompanyDescription": "VIC, TAS, ACT Residents",
-      "CompanyLogoUrl": "http://tim.media.tatts.com/TattsServices/Lotto/Companies/Tatts_v1.png"
+      "CompanyDescription": "VIC, TAS Residents",
+      "CompanyLogoUrl": "http://media.tatts.com/TattsServices/Lotto/Companies/Tatts_v1.png"
     }
   ],
   "ErrorInfo": null,
