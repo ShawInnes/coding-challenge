@@ -39,8 +39,8 @@ Bonus Points
 
 ## Requirements (Android)
 
-- Swift 4.x with Xcode 9
-- Screen uses MVVM pattern for unit testability and object oriented design
+- Java (Kotlin as a bonus)
+- Uses MVP/MVVM pattern for unit testability and object oriented design
 - Demonstrated Unit tests, testing ViewModel
 - Isolate/Override network API invocation for Unit Tests
 
