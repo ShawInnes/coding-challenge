@@ -1,15 +1,16 @@
 # coding-challenge
 
-
 ## What we are looking for
 
 - Coding style / readability
-- Understanding of the language
-- Understanding of the platform / framework
+- Understanding of the chosen language
+- Understanding of the chosen platform / framework
 - Solution design
 - Code maintainablity, including testing
+- Use of version control (preferably git)
+- Any other techniques which would contribute to supportability of your code
 
-# The Challenges
+## The Challenges
 
 ## 1. List Display
 In this assignment you will be using JSON feed to read lotteries Jurisdictions/Companies and display them in a table like shown below.
@@ -20,11 +21,11 @@ Use the following as an example, but don't be constrained by our design or imple
 
 ## 2. Coundown Timer
 
-In this challenge you will be displaying a countdown timer such as the one below.  You may assume that the countdown will hit zero at 20:30 AEST every Tuesday.
+In this challenge you will be displaying a countdown timer such as the one below.  You may assume that the countdown will hit zero at 20:30 AEST every Tuesday (alternatively use the API endpoint below to retrieve the draw closing time)
 
 ![Sample Countdown](images/countdown.png)
 
-# Platform specifics
+## Platform Specifics
 
 ## Requirements (IOS)
 
@@ -33,40 +34,70 @@ In this challenge you will be displaying a countdown timer such as the one below
 - Demonstrated Unit tests, testing ViewModel
 - Isolate/Override network API invocation for Unit Tests
 
-Bonus Points
+### Bonus Points
+
 - Example of reactive programming (eg. View-ViewModel binding)
 - You are free to use 3rd party libraries for Networking or Reactive (e.g. RxSwift)
 
 ## Requirements (Android)
 
-- Java (Kotlin as a bonus)
+- Java (or Kotlin)
 - Uses MVP/MVVM pattern for unit testability and object oriented design
 - Demonstrated Unit tests, testing ViewModel
 - Isolate/Override network API invocation for Unit Tests
 
-Bonus Points
+### Bonus Points
+
 - Example of reactive programming (eg. View-ViewModel binding)
 - You are free to use 3rd party libraries for Networking or Reactive (e.g. RxSwift)
 
 ## Requirements (Angular)
-(coming soon)
+
+- Angular (2+)
+- TypeScript
+- Demonstrated Unit tests, testing components
+- Isolate/Override network API invocation for Unit Tests
+
+### Bonus Points
+
+- Demonstrated use of redux pattern
+- Browser / UI Automation of components
+- You are free to use 3rd party libraries
 
 ## Requirements (Aurelia)
-(coming soon)
+
+- Aurelia
+- TypeScript
+- Demonstrated Unit tests, testing components
+- Isolate/Override network API invocation for Unit Tests
+
+### Bonus Points
+
+- Browser / UI Automation of components
+- You are free to use 3rd party libraries
 
 ## Requirements (Web API)
-(coming soon)
 
+- C# ASP.NET Core Web API
 - Build a web API that returns static responses based upon the samples below
-- Demonstrat use of unit testing
+- Demonstrate use of unit testing
+- Appropriate use of dependency injection
 
-# API endpoint details
+### Bonus Points
+
+- Sample of abstracted configuration data
+- Demonstrated use of suitable query and response caching
+- Demonstration of Repository Pattern
+
+## API endpoint details
 
 ## 1. Jurisdictions List
+
 GET Request:
 `https://api.thelott.com/svc/sales/vmax/web/data/lotto/companies`
 
 Sample Response:
+
 ```
 {
   "Companies": [
@@ -119,6 +150,7 @@ Sample Request:
   "OptionalProductFilter": [ "OzLotto" ]
 }
 ```
+
 Sample Response:
 
 ```
