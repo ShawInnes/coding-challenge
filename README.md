@@ -19,7 +19,7 @@ Use the following as an example, but don't be constrained by our design or imple
 
 ![Sample List](images/ios.png)
 
-## 2. Coundown Timer
+## 2. Countdown Timer
 
 In this challenge you will be displaying a countdown timer such as the one below.  You may assume that the countdown will hit zero at 20:30 AEST every Tuesday (alternatively use the API endpoint below to retrieve the draw closing time)
 
