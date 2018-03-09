@@ -67,7 +67,7 @@ In this challenge you will be displaying a countdown timer such as the one below
 ## Requirements (Aurelia)
 
 - Aurelia
-- TypeScript
+- Javascript or TypeScript
 - Demonstrated Unit tests, testing components
 - Isolate/Override network API invocation for Unit Tests
 
