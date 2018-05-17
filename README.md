@@ -3,12 +3,15 @@
 ## What we are looking for
 
 - Coding style / readability
+- UI knowledge and layout
 - Understanding of the chosen language
 - Understanding of the chosen platform / framework
 - Solution design
 - Code maintainablity, including testing
 - Use of version control (preferably git)
 - Any other techniques which would contribute to supportability of your code
+
+This challenge is a representation of the best of your work not just code itself.
 
 ## The Challenges
 
@@ -29,7 +32,7 @@ In this challenge you will be displaying a countdown timer such as the one below
 
 ## Requirements (IOS)
 
-- Swift 4.x with Xcode 9
+- Lastest Swift and Xcode 
 - Screen uses MVVM pattern for unit testability and object oriented design
 - Demonstrated Unit tests, testing ViewModel
 - Isolate/Override network API invocation for Unit Tests
@@ -42,14 +45,14 @@ In this challenge you will be displaying a countdown timer such as the one below
 ## Requirements (Android)
 
 - Java (or Kotlin)
-- Uses MVP/MVVM pattern for unit testability and object oriented design
-- Demonstrated Unit tests, testing ViewModel
+- Uses MVP pattern for unit testability and object oriented design
+- Demonstrated Unit tests
 - Isolate/Override network API invocation for Unit Tests
 
 ### Bonus Points
 
-- Example of reactive programming (eg. View-ViewModel binding)
-- You are free to use 3rd party libraries for Networking or Reactive (e.g. RxSwift)
+- Example of custom view or automated UI testing.
+- You are free to use 3rd party libraries for Networking (e.g. Retrofit)
 
 ## Requirements (Angular)
 
